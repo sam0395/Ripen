@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+	background-color: white;	
+}
+
+body{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.header-image{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	
+}
+
+
+	

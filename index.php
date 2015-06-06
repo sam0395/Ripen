@@ -6,6 +6,7 @@
 	<head>
 		<title>Ripen</title>
 		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="dist/css/style.css">
 	</head>
 
 	<body>
@@ -13,9 +14,10 @@
 			include_once('nav.php');
 		?>
 
-		<div class = "container">
-			<div class="col-md-12"><center>Hi</center></div>
-		</div>
+		
+			<div class="col-md-12 header-image" id="main">Hi</div>
+			<div class="col-md-12" id="main">Hi</div>
+			
 		
 
 	</body>
