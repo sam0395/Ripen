@@ -1,6 +1,6 @@
 html {
     height: 100%;
-	background-color: white;	
+	background-color: #fff;	
 }
 
 body{
@@ -13,13 +13,8 @@ body{
 	height: 100%;
 }
 
-.header-image{
-	position: relative;
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: rgb(30,30,30);
+.content {
+	padding: 5px;
 }
 
 .col-md-12 {
@@ -27,9 +22,48 @@ body{
 	margin: 0;
 }
 
-.content {
-	padding: 5px;
+/*
+*
+* Header
+*
+*/
+
+.header-image{
+	background: url('../../images/header.jpg')fixed;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 0;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
 }
+
+#caret {
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 100;
+	color: #fff;
+	width: 100%;
+}
+
+#caret a {
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition: color 0.4s ease;
+	-moz-transition: color 0.4s ease;
+	-ms-transition: color 0.4s ease;
+	-o-transition: color 0.4s ease;
+	transition: color 0.4s ease;
+}
+
+#caret a:hover {color: #009688;}
 
 /*
 *
@@ -38,7 +72,7 @@ body{
 */
 
 .animate-navbar {
-	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,.7);
 	min-height: 50px;
 }
 
@@ -50,6 +84,7 @@ body{
 .animate-navbar .navbar-nav > li > a {
   padding-top: 15px;
   padding-bottom: 15px;
+
 }
 
 .navbar-inverse {
@@ -60,18 +95,18 @@ body{
   transition: min-height 0.4s ease;
 }
 .navbar-inverse .navbar-brand {
-  -webkit-transition: padding-top 0.4s ease, height 0.4s ease;
-  -moz-transition: padding-top 0.4s ease, height 0.4s ease;
-  -ms-transition: padding-top 0.4s ease, height 0.4s ease;
-  -o-transition: padding-top 0.4s ease, height 0.4s ease;
-  transition: padding-top 0.4s ease, height 0.4s ease;
+  -webkit-transition: padding-top 0.4s ease, height 0.4s ease, color 0.4s ease;
+  -moz-transition: padding-top 0.4s ease, height 0.4s ease, color 0.4s ease;
+  -ms-transition: padding-top 0.4s ease, height 0.4s ease, color 0.4s ease;
+  -o-transition: padding-top 0.4s ease, height 0.4s ease, color 0.4s ease;
+  transition: padding-top 0.4s ease, height 0.4s ease, color 0.4s ease;
 }
 .navbar-inverse .navbar-nav > li > a {
-    -webkit-transition: padding 0.4s ease;
-    -moz-transition: padding 0.4s ease;
-    -ms-transition: padding 0.4s ease;
-    -o-transition: padding 0.4s ease;
-    transition: padding 0.4s ease;
+    -webkit-transition: padding 0.4s ease, color 0.4s ease;
+    -moz-transition: padding 0.4s ease, color 0.4s ease;
+    -ms-transition: padding 0.4s ease, color 0.4s ease;
+    -o-transition: padding 0.4s ease, color 0.4s ease;
+    transition: padding 0.4s ease, color 0.4s ease;
 }
 
 /*
