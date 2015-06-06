@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -9,7 +9,7 @@
       </button>
       <a class="navbar-brand" href="#">Ripen</a>
     </div>
-    <div id="navbar" class="collapse navbar-collapse">
+    <div id="navbar" class="collapse navbar-collapse navbar-right">
       <ul class="nav navbar-nav">
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -18,3 +18,14 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
+
+<script type="text/javascript">
+  $(window).on('scroll', function () {
+    var scrollTop = $(window).scrollTop();
+    if (scrollTop > 10) {
+        $('#navbar').addClass('animate-navbar');
+    }else {
+        $('#navbar').removeClass('animate-navbar');
+    }
+});
+</script>
