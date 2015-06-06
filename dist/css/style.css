@@ -9,6 +9,10 @@ body{
 	margin: 0;
 }
 
+.carousel{
+	height: 100%;
+}
+
 .header-image{
 	position: relative;
 	height: 100%;
@@ -18,6 +22,3 @@ body{
 	border: 1px solid black;
 	
 }
-
-
-	
