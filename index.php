@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="dist/css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script type="text/javascript" src="dist/js/bootstrap.js"></script>
+		<script src="dist/js/smooth-scroll.min.js"></script>
 	</head>
 
 	<body>
@@ -21,7 +22,7 @@
 
 				
 			</div>
-			<div class="col-md-12" id="main">Hi</div>
+			<div class="col-md-12" id="main"></div>
 			
 			<?php 
 			include_once('remaining.php');
