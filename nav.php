@@ -30,7 +30,7 @@
 
     $(window).on('scroll', function () {
       var scrollTop = $(window).scrollTop();
-      if (scrollTop > 30) {
+      if (scrollTop > 70) {
           $('#navbar').addClass('animate-navbar');
       }else {
           $('#navbar').removeClass('animate-navbar');
