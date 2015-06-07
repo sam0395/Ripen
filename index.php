@@ -20,6 +20,9 @@
 
 		
 			<div id="home" class="col-md-12 header-image" id="main">
+				<div>
+					<h1 class="h1">Text Example</h1>
+				</div>
 				<div id="caret"><a data-scroll href="#about"><i class="icon-angle-down"></i></a></div>
 			</div>
 			
