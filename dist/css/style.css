@@ -7,6 +7,7 @@ body{
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	background-color: #B6B6B4;
 }
 
 .carousel{
@@ -35,6 +36,7 @@ body{
 .header-image{
 	background-image: url('../../images/header.jpg');
 	background-attachment: fixed;
+	background-color: black;
 	position: relative;
 	height: 100%;
 	width: 100%;
@@ -113,6 +115,7 @@ body{
     -o-transition: padding 0.4s ease, color 0.4s ease;
     transition: padding 0.4s ease, color 0.4s ease;
 }
+
 
 /*
 *

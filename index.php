@@ -23,9 +23,7 @@
 			
 
 			<div id="home" class="col-md-12 header-image" id="main">
-				<div>
-					<h1 class="h1">Text Example</h1>
-				</div>
+				
 				<div id="caret"><a data-scroll href="#about"><i class="icon-angle-down"></i></a></div>
 			</div>
 
@@ -51,7 +49,6 @@
 
 						console.log(i);
 
-					 	$('#home').css({opacity : 0});
 					 	$('#home').animate({'opacity': 1}, 3000);
 					 	$('#home').css("background-image", images[i]);
 						$('#home').animate({'opacity': 0}, 13000);
