@@ -55,7 +55,7 @@
 					 	$('#home').animate({'opacity': 1}, 3000);
 					 	$('#home').css("background-image", images[i]);
 						$('#home').animate({'opacity': 0}, 13000);
-			}, 13000);
+			}, 16000);
 		
 			
 			</script>
