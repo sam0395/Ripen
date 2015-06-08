@@ -33,6 +33,7 @@ body{
 */
 
 .header-image{
+	background-image: url('../../images/header.jpg');
 	background-attachment: fixed;
 	position: relative;
 	height: 100%;
