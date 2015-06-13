@@ -2,12 +2,34 @@
 
 	<div class="content">
 		<div id="about">
-			<h2>About</h2>
+
+
+			<div class = "col-md-1 pad"></div>
+			<div class = "col-md-2 picture">Image</div>
+			<div class = "col-md-1 pad"></div>
+			<div class = "col-md-7 text"></div>
+			<div class = "col-md-1 pad"></div>
+			
+			<div class = "col-md-1 pad"></div>
+			<div class = "col-md-7 text"></div>
+			<div class = "col-md-1 pad"></div>
+			<div class = "col-md-2 picture">Image</div>
+			<div class = "col-md-1 pad"></div>
+			
+			<div class = "col-md-1 pad"></div>
+			<div class = "col-md-2 picture">Image</div>
+			<div class = "col-md-1 pad"></div>
+			<div class = "col-md-7 text"></div>
+			<div class = "col-md-1 pad"></div>
+			
+
+
 		</div>
 
 		<div id="process">
-			<h2>Process</h2>
+			<div class = "col-md-12 pad"><h2>Process</h2></div>
 		</div>
+		
 
 		<div id="contact">
 			<h2>Contact</h2>

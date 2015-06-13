@@ -38,7 +38,7 @@
 			images[3] = "url('../Ripen/images/header4.jpg')"
 
 			console.log(images.length);
-			setTimeout(function firstFade() {$('#home').animate({'opacity': 0}, 13000);}, 3000);
+			setTimeout(function firstFade() {$('#home').animate({'opacity': .01}, 4000);}, 8000);
 
 			setInterval(function changeBackground(){
 						if(i>images.length - 2){
@@ -49,10 +49,10 @@
 
 						console.log(i);
 
-					 	$('#home').animate({'opacity': 1}, 3000);
+					 	$('#home').animate({'opacity': 1}, 8000);
 					 	$('#home').css("background-image", images[i]);
-						$('#home').animate({'opacity': 0}, 13000);
-			}, 16000);
+						$('#home').animate({'opacity': .01}, 4000);
+			}, 12000);
 		
 			
 			</script>
