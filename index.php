@@ -23,7 +23,6 @@
 			
 
 			<div id="home" class="col-md-12 header-image" id="main">
-				
 				<div id="caret"><a data-scroll href="#services"><i class="icon-angle-down"></i></a></div>
 			</div>
 
