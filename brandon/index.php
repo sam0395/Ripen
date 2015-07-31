@@ -13,6 +13,7 @@
 		
 		<script type="text/javascript" src="dist/js/bootstrap.js"></script>
 		<script src="dist/js/smooth-scroll.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Petit+Formal+Script" />
 	</head>
 
 	<body>

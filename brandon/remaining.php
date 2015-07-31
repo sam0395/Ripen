@@ -14,9 +14,8 @@
                 <div class="col-lg-10 col-lg-offset-1">
                  <div class="row">
                     <div class="col-lg-12">
-                        <center><h1>Services
-
-                        </h1></center>
+                        <center style="margin-bottom:20px;"><h1 class="fancy">Services</h1>
+                        </center>
                     </div>
                 </div>
 
@@ -28,7 +27,7 @@
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
                             </span>
                             <h4>
-                                <strong>Web Design</strong>
+                                <strong>Web Development</strong>
                             </h4>
                             <p>Inherit an eloquent design that will amaze your customers every visit</p>
                             
@@ -94,35 +93,40 @@
    <div class="container">
        <div class="row">
         <div class="col-lg-12">
-            <center><h1>Portfolio
-
-            </h1></center>
+            <center style="margin-bottom:20px;"><h1 class="fancy">Portfolio</h1>
+            <div class="border"></div>
+            </center>
         </div>
     </div>
 
 
     <!-- Projects Row -->
     <div class="row">
-        <div class="col-md-4 portfolio-item">
-            <a href="http://173.170.97.243/chem-stat">
-                <img class="img-responsive" src="images/chemstat1.png" alt="">
-            </a>
-            <h3>
-                <a href="http://173.170.97.243/chem-stat">Chem-Stat Inc.</a>
-            </h3>
-            <p>Chem-Stat Inc. exemplifies Ripen's basic website layout. No login processing, payment processing, or user feedback. Just a creative way for a company to pass on information.</p>
-        </div>
-        <div class="col-md-4 portfolio-item">
-            <a href="http://www.flightleveljobs.com">
-                <img class="img-responsive" src="images/flightleveljobs.png" alt="">
-            </a>
-            <h3>
-                <a href="http://www.flightleveljobs.com">Flight Level Jobs</a>
-            </h3>
-            <p>Flight Level Jobs represents the more advanced style that Ripen offers. It comes equipped with a login system for users to interact with the website on a personal basis. Flight Level Jobs also 
-                has a payment system built in. Everything a company needs to get known and make money!</p>
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <a href="http://173.170.97.243/chem-stat">
+                    <img class="img-responsive" src="images/chemstat1.png" alt="">
+                </a>
+                <h3>
+                    <a href="http://173.170.97.243/chem-stat">Chem-Stat Inc.</a>
+                </h3>
+                <p>Chem-Stat Inc. exemplifies Ripen's basic website layout. No login processing, payment processing, or user feedback. Just a creative way for a company to pass on information.</p>
             </div>
-            <div class="col-md-4 portfolio-item">
+        </div>
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <a href="http://www.flightleveljobs.com">
+                    <img class="img-responsive" src="images/flightleveljobs.png" alt="">
+                </a>
+                <h3>
+                    <a href="http://www.flightleveljobs.com">Flight Level Jobs</a>
+                </h3>
+                <p>Flight Level Jobs represents the more advanced style that Ripen offers. It comes equipped with a login system for users to interact with the website on a personal basis. Flight Level Jobs also 
+                    has a payment system built in. Everything a company needs to get known and make money!</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="portfolio-item">
                 <a href="http://www.justforyoufloraldesign.com">
                     <img class="img-responsive" src="images/justforyoufloraldesign.png" alt="">
                 </a>
@@ -131,13 +135,15 @@
                 </h3>
                 <p>Just For You Floral Design is a unique twist on a wordpress template. The template was set up to allow a sole proprietor market her floral products without collecting payments online, but allowing reviews and simple 
                     product management. This was a simple and quick solution that the proprietor was looking for at the time.</p>
-                </div>
             </div>
-            <!-- /.row -->
+        </div>
+        </div>
+        <!-- /.row -->
 
-            <!-- Projects Row -->
-            <div class="row">
-                <div class="col-md-4 portfolio-item">
+        <!-- Projects Row -->
+        <div style="margin-top:20px;" class="row">
+            <div class="col-md-4">
+                <div class="portfolio-item">
                     <a href="http://maritimecareersearch.com/demo/">
                         <img class="img-responsive" src="images/maritimecareersearch.png" alt="">
                     </a>
@@ -146,10 +152,10 @@
                     </h3>
                     <p>Maritime Career Search is another example of Ripen's advance website. While it is still under developemnt, there is a demo available in which users can see how the maritime job search will work. 
                         There is also a functioning admin page that works without a user name or password for testing purposes. </p>
-                    </div>
-
-                </div>
-                <!-- /.row -->
+                </div> 
+            </div>
+        </div>
+            <!-- /.row -->
 
 
 

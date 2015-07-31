@@ -128,7 +128,7 @@ body{
 #portfolio {
 	min-height: 200px;
 	padding: 50px 0;
-	background-color:#F8F8F8 ; 
+	background-color:#F7F8FA ; 
 }
 
 
@@ -248,3 +248,35 @@ font-size: 205px;
 }
 
 .team-member{text-align:center;margin-bottom:50px}.team-member img{margin:0 auto;border:7px solid #fff}.team-member h4{margin-top:25px;margin-bottom:0;text-transform:none}.team-member p{margin-top:0}aside.clients img{margin:50px auto}
+
+
+.portfolio-item {
+	background-color: #fff;
+	width: 95%;
+	min-height: 450px;
+	margin: 0 auto;
+	padding: 5px;
+	border-right: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+	border-top: 1px solid #eaeaea;
+	border-bottom: 3px solid #eaeaea;
+	border-radius: 3px;
+	-webkit-transition: all ease 0.55s;
+	transition: all ease 0.55s;
+}
+
+.portfolio-item:hover {
+	border-bottom: 3px solid #009688;
+}
+
+.img-responsive {
+	border-radius: 0px !important;
+}
+
+.fancy {
+	font: 400 3.5em/125% 'Petit Formal Script', Helvetica, Sans-serif;
+}
+.border {
+	width: 75px;
+	border: 2px solid #009688;
+}

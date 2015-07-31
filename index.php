@@ -13,6 +13,8 @@
 		
 		<script type="text/javascript" src="dist/js/bootstrap.js"></script>
 		<script src="dist/js/smooth-scroll.min.js"></script>
+
+		
 	</head>
 
 	<body>
