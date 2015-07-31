@@ -22,39 +22,11 @@
 
 			
 
-			<div id="home" class="col-md-12 header-image" id="main">
+			<div id="home" class="col-md-12 header-image hidden-xs hidden-sm" id="main">
 				<div id="caret"><a data-scroll href="#services"><i class="icon-angle-down"></i></a></div>
 			</div>
 
-			<script type="text/javascript">
-			// var transition = true;
-			// var i = 1;
-			// var images = [];
-
-			// images[0] = "url('../Ripen/images/header.jpg')"
-			// images[1] = "url('../Ripen/images/header2.jpg')"
-			// images[2] = "url('../Ripen/images/header3.jpg')"
-			// images[3] = "url('../Ripen/images/header4.jpg')"
-
-			// console.log(images.length);
-			// setTimeout(function firstFade() {$('#home').animate({'opacity': .01}, 4000);}, 8000);
-
-			// setInterval(function changeBackground(){
-			// 			if(i>images.length - 2){
-			// 				i = 0;
-			// 			}
-			// 			else
-			// 				i++;
-
-			// 			console.log(i);
-
-			// 		 	$('#home').animate({'opacity': 1}, 8000);
-			// 		 	$('#home').css("background-image", images[i]);
-			// 			$('#home').animate({'opacity': .01}, 4000);
-			// }, 12000);
 		
-			
-			</script>
 
 			<?php 
 			include_once('remaining.php');
