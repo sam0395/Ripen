@@ -175,7 +175,7 @@
                <div class="row">
 
                 <div class="col-lg-12">
-                    <center><h1>Our Process
+                    <center style="margin-bottom:20px;"><h1 class="fancy">Work Process
 
                     </h1></center>
                 </div>
